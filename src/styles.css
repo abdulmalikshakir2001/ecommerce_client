@@ -1,0 +1,190 @@
+/**
+ * border radius
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+
+/* cart badge */
+
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+  background: #000;
+}
+/**
+  * single product page - product name
+  */
+
+.name {
+  background: indigo;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* black shade form 10-1 */
+.black-10 {
+  background: #f2f2f2;
+}
+.black-9 {
+  background: #e6e6e6;
+}
+.black-8 {
+  background: #d9d9d9;
+}
+.black-7 {
+  background: #cccccc;
+}
+.black-6 {
+  background: #bfbfbf;
+}
+.black-5 {
+  background: #b3b3b3;
+}
+
+/**
+  * product image on card
+  */
+
+.product-img {
+  min-height: 100px;
+}
+
+.jumbotron h2 {
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron h2 {
+    margin-top: 10px;
+  }
+}
+
+/**
+  * jumbotron animation
+  */
+
+.jumbotron {
+  height: 180px;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.jumbotron{
+  background: white;
+  color: black;
+}
+.carousel_parent{
+  margin-top: 65px;
+  margin-bottom: 30px;
+  height: 70vh;
+  
+}
+.carousel_img{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+
+ 
+
+
+}
+.jumbotron{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard_page{
+  height: 100vh;
+  margin-top: 64px;
+
+
+}
+.Sidebar{
+  padding-top: 30px;
+  position: fixed;
+  background: #3F51B5;
+  height: 80vh;
+  /* box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12); */
+  overflow: auto;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
+.icon_cus{
+  color: white;
+}
+.nav_link_item{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  
+  
+}
+.admin_body{
+  height: 100%;
+  background: #ECF6FF;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.user_profile_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.user_profile_card{
+  width: 400px;
+  height: 400px;
+}
